@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif; 
+  background: #fff;
+  color: #333;
+  padding-bottom: 25px;
+  background-image: url('photographystudio.jpg');
+  background-repeat: no-repeat;
+  background-size: 1600px 1000px;
+  background-position: absolute;
+  
+}
+
+a {
+  color: #3B5998;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 12px;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+}
+
+li {
+  padding: 2px 5px;
+}
+
+.right {
+  float: right;
+}
+
+.amp {
+  font-family: Georgia;
+}
+
+.bolder { 
+  background: red; 
+  color: white; 
+  font-size: 20px; 
+  padding: 20px; 
+  width: 500px; 
+}
+
+
+#main {
+  margin: 0 auto;
+  width: 730px;
+}
+
+#shadow {
+  background: transparent url(/facebox/shadow.gif) repeat-y scroll right top;
+  margin: 2px 0px 0px 1px;
+  padding: 0;
+}
+
+#content {
+  padding: 20px;
+}
+
+.example {
+  margin-bottom: 40px;
+}
+
+.example h2 {
+
+  margin-bottom: 10px;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.example ul li {
+  font-size: 12px;
+}
+
+.dock ul{
+display: inline-block;
+
+width: auto;
+margin: 0px;
+padding: 0px;
+list-style: none;
+background: rgba(0, 0, 0, 0.3);
+padding-right: 76px;
+}
+.dock ul li {
+width: auto;
+height: auto;
+display: inline-block;
+bottom: 0;
+vertical-align: bottom;
+margin-top: -43px;
+}
+.dock ul li a {
+display: block;
+height: 60px;
+width: 60px;
+position: relative;
+-webkit-transition-property: width, height,margin-top;
+-webkit-transition-duration: 0.5s;
+-o-transition-property: width, height,margin-top;
+-o-transition-duration: 0.5s;
+-moz-transition-property: width, height,margin-top;
+-moz-transition-duration: 0.5s;
+}
+.dock ul li a:hover {
+width: 100px;
+height: 100px;
+margin-top: -50px;
+}
+.dock ul li a img {
+width: 100%;
+position: absolute;
+bottom: 0;
+left: 0;
+border: none;
+padding: 0px 0px 0px 30px;
+}
+.dock_left{
+width: 31px;
+-webkit-transform: rotate(33deg);
+-moz-transform: rotate(33deg);
+-o-transform: rotate(33deg);
+position: relative;
+background: #EEE;
+overflow: hidden;
+float: left;
+height: 100px;
+z-index: 2;
+margin: -18px;
+}
+.dock_right{
+width: 36px;
+-webkit-transform: rotate(-33deg);
+-moz-transform: rotate(-33deg);
+-o-transform: rotate(-33deg);
+position: relative;
+background: #EEE;
+overflow: hidden;
+float: left;
+height: 100px;
+z-index: 2;
+margin: -18px;
+}
+.dock {
+	position: absolute;
+	margin-top: 700px;
+	margin-left: 520px;
+	
+}
